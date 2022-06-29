@@ -1,0 +1,68 @@
+body{
+  background: #e8e8e8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1{
+  font-family: 'Cinzel', serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  border-left: 2.5px solid #6457fc;
+  border-bottom: 2.5px solid #6457fc;
+  border-radius: 15px;
+  box-shadow: 2.5px 2.5px 5px #6457fc;
+  padding: 5px;
+}
+#df{
+  padding: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background: rgb(238,238,238);
+  background-image: linear-gradient(to top,#FFFFFF,#D3D3D3);
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 0px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.117), -5px -5px 10px #ffffffb9;
+}
+#sub{
+  padding: 10px;
+  color: white;
+  width: 200px;
+  font-size: 40px;
+  border: 0px solid black;
+  border-radius: 8px;
+  background: radial-gradient(circle,#3f5efb,#6457fc,#6d55fc);
+  text-shadow: 1.5px 1.5px 5px black;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#sub:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+#user, #pass, #mail{
+  width: 700px;
+  font-size: 45px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 0px solid black;
+  margin-bottom: 5px;
+  background: rgba(231,231,231,0.725);
+  box-shadow: -5px -5px 5px rgba(255,255,255,0.487)  inset, 5px 5px 5px rgba(0,0,0,0.117) inset;
+}
+button{
+  padding: 10px;
+  color: white;
+  width: 200px;
+  font-size: 20px;
+  border: 0px solid black;
+  border-radius: 8px;
+  background: radial-gradient(circle,#3f5efb,#6457fc,#6d55fc);
+  text-shadow: 1.5px 1.5px 5px black;
+  cursor: pointer;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: 1s;
